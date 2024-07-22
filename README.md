@@ -15,8 +15,6 @@ HTTP Requests: In this application, React makes HTTP requests to Django endpoint
 
 ## Deployment and Hosting
 
-### Frontend Deployment: The finished React app is built into a static “dist” file using the Vite framework build tool. This “dist” file can be deployed purely as a frontend through static hosting service. For this project, an AWS s3 bucket deployment demonstrates this purely frontend dynamic. 
-
 ### Backend Deployment: Django is deployed to a server or cloud service, with the backend handling API requests from the React frontend. In this application an AWS ec2 instance was created and configured to serve the Django backend. 
 
 ### Integration and Deployment: CORS was used to ensure proper integration between the frontend and backend by configuring environment variables, API endpoints, and CORS settings. For ease of full application deployment, the Heroku service was utilized with python and node build packages.
